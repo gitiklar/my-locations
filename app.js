@@ -12,8 +12,6 @@ app.get('/', function (_, res) { res.sendFile(indexPath) });
 app.get('*', function (_, res) { res.sendFile(indexPath) });
 
 
-
-
 // use the express-static middleware
 //app.use(express.static("public"))
 // define the first route
